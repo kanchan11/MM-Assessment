@@ -1,0 +1,125 @@
+html {
+    font-size: 62.5%;
+    position: relative;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+  body {
+    background-color: #f3f3f3;
+  }
+  
+  header {
+    height: 6rem;
+    background-color: #002f6c;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 2.5rem 0;
+  }
+  
+  header .container {
+    margin-top: -.6rem;
+  }
+  
+  header img {
+    width: 16rem;
+  }
+  
+  .container {
+    margin-top: 5rem;
+  }
+  
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+        justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  
+  h1, h2, .mm-card .content .card-title {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #000;
+  }
+  
+  p, h1, h2, .mm-card .content .card-title {
+    margin: 0 0 2rem 0;
+  }
+  
+  h1 {
+    font-size: 4rem;
+  }
+  
+  h2, .mm-card .content .card-title {
+    font-size: 3rem;
+  }
+  
+  p {
+    font-size: 1.4rem;
+  }
+  
+  a {
+    font-weight: bold;
+    color: #005A9F;
+  }
+  
+  a:hover {
+    color: #002f6c;
+  }
+  
+  .mm-card .content .mm-category {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    line-height: 1.2rem;
+    margin-bottom: 2.4rem;
+  }
+  
+  .btn-primary {
+    color: #000;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1.2rem 4rem;
+    background-color: yellow;
+    border: 0;
+    border-radius: 0;
+  }
+  
+  .mm-card {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+            display: flex;
+    flex-wrap: wrap;
+    flex-basis:auto;
+    width: 36rem;
+    background-color: #fff;
+    margin-top: 2.5rem;
+    
+  }
+  
+ .image {
+  height: inherit;
+  min-height: 30vh;
+  width: 100%;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  }
+  
+  .mm-card .content {
+    margin: 3rem;
+    
+  }
+  /*# sourceMappingURL=mm-code-exercise.css.map */
